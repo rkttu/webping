@@ -1,0 +1,14 @@
+﻿# Add one or more sites to send HTTP message periodically.
+#
+# example
+#
+# GET http://www.example.com/test.cgi?a=123
+# HEAD http://www.example.com/test.html
+# POST http://www.example.com/test.ashx?b=456
+# http://www.example.com/test.cgi
+#
+
+http://www.microsoft.com/
+https://deploy.xinics.kr/
+GET http://www.google.co.kr/
+GET http://www.naver.com/
