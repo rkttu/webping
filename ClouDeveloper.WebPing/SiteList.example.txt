@@ -8,7 +8,3 @@
 # http://www.example.com/test.cgi
 #
 
-http://www.microsoft.com/
-https://deploy.xinics.kr/
-GET http://www.google.co.kr/
-GET http://www.naver.com/

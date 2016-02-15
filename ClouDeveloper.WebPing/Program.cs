@@ -19,7 +19,7 @@ namespace ClouDeveloper.WebPing
                     Trace.TraceInformation("Assembly Code Base URI: {0}", asmCodeBase);
 
                     string translatedCodeBasePath = new Uri(asmCodeBase, UriKind.Absolute).LocalPath;
-                    Trace.TraceInformation("Assembly File Path: {0}", asmCodeBase);
+                    Trace.TraceInformation("Assembly File Path: {0}", translatedCodeBasePath);
 
                     string destDir = Path.GetDirectoryName(translatedCodeBasePath);
                     Trace.TraceInformation("Chaging current directory to '{0}'", destDir);
